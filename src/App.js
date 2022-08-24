@@ -1,18 +1,21 @@
+import React from 'react';
+// import { Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Header from "./Header"
+import Header from "./Components/Header"
+import Sidebar from "./Components/Sidebar";
+import Welcome from './Pages/Welcome';
 
 function App() {
   return (
-    //BEM Naming Conventions
-    <div className="app">
-      
+   
+    <div id="app">
       <Header />
-
       <div className="app__body">
-        
+        <Sidebar />   
+        <Welcome/>
       </div>
 
-    </div>
+    </div> 
   );
 }
 

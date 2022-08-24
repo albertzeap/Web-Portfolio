@@ -1,0 +1,27 @@
+#sidebar {
+    display: flex;
+    padding-top: 100px;
+}
+
+#sidebar > #sidebar__projects {
+    text-decoration: none;
+    text-orientation: upright;
+    color: #3f3209;
+    writing-mode: vertical-lr;
+}
+
+#sidebar > #sidebar__experience {
+    text-decoration: none;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    color: #3f3209;
+}
+
+
+#sidebar > #sidebar__projects:hover {
+    color: white;
+}
+
+#sidebar > #sidebar__experience:hover {
+    color: white;
+}

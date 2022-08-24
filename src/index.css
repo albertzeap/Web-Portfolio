@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#projects {
+  margin-top:500px;
+  border: 6px double green;
+  font-size: 3rem;
+  background-color: lightgreen;
+  font-weight: 800;
+  text-align: center;
+  padding: 80px;
+}
+
+#experience {
+  margin-top:500px;
+  /* border: 6px double green; */
+  font-size: 3rem;
+  background-color: beige;
+  font-weight: 800;
+  text-align: center;
+  padding: 80px;
+}
