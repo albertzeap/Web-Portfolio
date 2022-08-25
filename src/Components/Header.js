@@ -23,7 +23,7 @@ function Header() {
         </div>
         
         <div className="header__center">
-            
+            <h5>albertzeap@gmail.com</h5>
         </div>
 
         <div className="header__right">

@@ -4,10 +4,10 @@ import Projects from './Projects'
 import "./Welcome.css"
 
 
+
 const Welcome=() => {
   return (
     <div id="welcome__body">
-        
         <h1>Hello! I'm Albert Paez</h1>
         <p>An asipring web developer and designer</p>
         <Experience />
