@@ -1,0 +1,22 @@
+#sidebarRow{
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    /* margin: 10px 0px; */
+    padding: 20px 0px;
+}
+
+#sidebarRow > a:active{
+    text-decoration: underline;
+    color: aqua;
+}
+#sidebarRow > a:link{
+    text-decoration: none;
+}
+#sidebarRow > a > h4{
+    color: #3f3209;
+}
+#sidebarRow > a > h4:hover{
+    color: white;
+}
+
+

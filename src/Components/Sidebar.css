@@ -1,31 +1,8 @@
-#sidebar {
-    padding-top: 100px;
-    padding-left:20px;
-    width: 50px;
-    height: 150px;
-    /* border: 1px solid black; */
-}
-
-#sidebar > #sidebar__projects {
-    text-decoration: none;
-    text-orientation: upright;
-    color: #3f3209;
-    writing-mode: vertical-lr;
-}
-
-#sidebar > #sidebar__experience {
-    text-decoration: none;
-    text-orientation: upright;
-    writing-mode: vertical-lr;
-    color: #3f3209;
-    padding-bottom: 50%;
-}
-
-
-#sidebar > #sidebar__projects:hover {
-    color: white;
-}
-
-#sidebar > #sidebar__experience:hover {
-    color: white;
+.sidebar {
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  margin-top: 100px;
+  flex-direction: column;
 }

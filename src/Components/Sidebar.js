@@ -1,26 +1,13 @@
 import React from 'react'
 import "./Sidebar.css"
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import SidebarRow from './SidebarRow';
 
 
 function Sidebar() {
   return (
-    <div id="sidebar">
-        
-
-        <AnchorLink id='sidebar__experience' href='#experience'>
-          experience.
-        </AnchorLink>
-         <br/>
-        <AnchorLink id='sidebar__projects' href='#projects'>
-          projects.
-        </AnchorLink>
-       
-        
-
-        
-    
-    
+    <div className="sidebar">
+        <SidebarRow link='#experience' title="experience."/>
+        <SidebarRow link='#projects' title="projects."/>    
     </div>
   )
 }

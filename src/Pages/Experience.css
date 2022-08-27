@@ -1,0 +1,33 @@
+#experience {
+    padding-top: 10%;
+}
+
+
+#experience > h2 {
+    text-align: center;
+}
+
+#experience > p {
+    text-align: center;
+    justify-content: center;
+}
+
+#experience > .cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#experience > .cards > .MuiCard-root {
+    padding: 10px 10px;
+    background-color: beige;
+    /* border-radius: 50px; */
+
+}
+#experience > .cards > .MuiCard-root:hover {
+    transform: scale(1.07);
+    background-color: white;
+
+}
+
+

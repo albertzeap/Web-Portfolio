@@ -1,6 +1,4 @@
 import React from 'react'
-import Experience from "./Experience"
-import Projects from './Projects'
 import "./Welcome.css"
 
 
@@ -8,10 +6,8 @@ import "./Welcome.css"
 const Welcome=() => {
   return (
     <div id="welcome__body">
-        <h1>Hello! I'm Albert Paez</h1>
-        <p>An asipring web developer and designer</p>
-        <Experience />
-        <Projects />
+        <h1>ALBERT PAEZ</h1>
+        <p>Aspiring web developer and designer</p>
     </div>
 
   )
