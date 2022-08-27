@@ -1,11 +1,11 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import "./SidebarRow.css"
+import "./Headerlink.css"
 
 
-function SidebarRow({title, link}) {
+function Headerlink({title, link}) {
   return (
-    <div id="sidebarRow">
+    <div id="header__link">
         <AnchorLink href={link}>
           <h4>{title}</h4>
         </AnchorLink>
@@ -14,4 +14,4 @@ function SidebarRow({title, link}) {
   )
 }
 
-export default SidebarRow
+export default Headerlink

@@ -4,6 +4,7 @@ import IconButton from '@mui/material/IconButton';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import Headerlink from "./Headerlink"
 // import { Link, Route, Routes } from 'react-router-dom';
 // import Home from './Home';
 
@@ -18,12 +19,14 @@ function Header() {
             <AnchorLink href='#app'>
                 <img src="https://live.staticflickr.com/65535/52306659962_edec6176a3_o.png" alt=""/>
             </AnchorLink>    
+            <h5>albertzeap@gmail.com</h5>
             {/* </a> */}
             {/* </Link> */}
         </div>
         
         <div className="header__center">
-            <h5>albertzeap@gmail.com</h5>
+            <Headerlink title="experience." link='#experience' />
+            <Headerlink title="projects" link='#projects' />
         </div>
 
         <div className="header__right">

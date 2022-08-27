@@ -13,7 +13,6 @@
 .header__left {
     display: flex;
     align-items: center;
-    padding-right: 5%;
 }
 
 .header__left > a > img {
@@ -25,22 +24,20 @@
 }
 
 .header__center {
-    /* flex: 1; */
+    flex: 0.33;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
 }
 
-.header__center > h5 {
+.header__left > h5 {
     color: #3f3209;
+    padding: 0px 10px;
     
 }
 
 .header__right {
     display: flex;
     align-items: center;
-    padding-right: 5%;
+    padding-right: 10%;
 }
 
 .header__right > .MuiIconButton-root > .MuiSvgIcon-root {

@@ -16,7 +16,7 @@ function App() {
     <div id="app">
       <Header />
       <div className="app__body">
-        <Sidebar />   
+        {/* <Sidebar />    */}
         <Welcome/>
         <Experience/>
         <Projects/>
