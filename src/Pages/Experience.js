@@ -14,7 +14,7 @@ function Experience() {
   }, []);
 
   return (
-    <div id="experience" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="300">
+    <div id="experience"data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="300">
       <h2>Experience.</h2>
       <div className="cards" data-aos="slide-up" data-aos-duration= "400">
         <Card>

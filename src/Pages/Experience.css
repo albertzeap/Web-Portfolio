@@ -1,8 +1,8 @@
 #experience {
     padding-top: 5%;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
     background-color: #DEB48E;
-    position: relative;
+    position: relative; 
     z-index: -1;
 }
 
@@ -31,6 +31,7 @@
 
 #experience > .cards > .MuiCard-root > .MuiCardHeader-root {
     color: #D06550
+    
 }
 
 #experience > .cards > .MuiCard-root > .MuiCardContent-root {

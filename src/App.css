@@ -7,3 +7,7 @@ body, html {
 
     
 }
+
+#app > .header {
+    z-index: 1;
+}
