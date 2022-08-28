@@ -26,7 +26,7 @@ function Header() {
         
         <div className="header__center">
             <Headerlink title="experience." link='#experience' />
-            <Headerlink title="projects" link='#projects' />
+            <Headerlink title="projects." link='#projects' />
         </div>
 
         <div className="header__right">
