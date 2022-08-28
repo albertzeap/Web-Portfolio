@@ -29,7 +29,7 @@ const Welcome=() => {
           alt="Albert Paez" 
           src="https://live.staticflickr.com/65535/52311816679_b21d68fb0d_b.jpg"
         />
-
+        <h4>About Me</h4>
         <IconButton onClick={handleClickOpen}>
           <MoreHorizIcon sx={{fontSize: 40}}/>
         </IconButton>

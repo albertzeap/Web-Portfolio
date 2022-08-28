@@ -48,7 +48,10 @@
 .welcome__body > .basic__info > .MuiIconButton-root{
     margin: 0 auto;
     justify-content: center;
-    margin-top: 20px;
+}
+
+.welcome__body > .basic__info > .MuiIconButton-root:hover{
+    color: #D06550;
 }
 
 
