@@ -2,8 +2,6 @@
     padding-top: 5%;
     padding-bottom: 20%;
     background-color: #DEB48E;
-    position: relative; 
-    z-index: -1;
 }
 
 
@@ -29,9 +27,13 @@
 
 }
 
+#experience > .cards > .MuiCard-root:hover {
+    transform: scale(1.07);
+
+}
+
 #experience > .cards > .MuiCard-root > .MuiCardHeader-root {
-    color: #D06550
-    
+    color: #D06550    
 }
 
 #experience > .cards > .MuiCard-root > .MuiCardContent-root {

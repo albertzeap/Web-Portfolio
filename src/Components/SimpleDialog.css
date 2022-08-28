@@ -1,0 +1,5 @@
+.MuiDialog-root > .MuiDialog-container > .MuiPaper-root  {
+    background-color: #FCEED8;
+    text-align: center;
+    justify-content: center;
+}
