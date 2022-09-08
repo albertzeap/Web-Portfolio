@@ -5,6 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Headerlink from "./Headerlink"
+import { AppBar } from '@mui/material';
 // import { Link, Route, Routes } from 'react-router-dom';
 // import Home from './Home';
 
@@ -37,13 +38,12 @@ function Header() {
                 <LinkedInIcon/>
             </IconButton>
         </div>
-
+    
         {/* <div className="main">
             <Routes>
                 <Route path="/" element={<Home/>}/>
             </Routes>
         </div> */}
-
 
 
     </div>

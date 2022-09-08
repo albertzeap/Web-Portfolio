@@ -12,11 +12,12 @@
     text-align: center;
     padding-top: 10%;
     padding-bottom: 25%;
+    max-width: 100%;
+
 }
 
 .welcome__body > .basic__info {
-    height: 600px;
-    width: 600px;
+    max-width: 100%;
     margin: 0 auto;
     /* animation: 1s ease-out 0s 1 slideInBottom; */
 }
@@ -24,7 +25,7 @@
 
 .welcome__body > .basic__info > h1 {
     color:  #D06550;
-    font-size: 60px;
+    font-size: 3rem;
     margin-bottom: -20px;
 }
 
@@ -61,7 +62,9 @@
     background-color: #D06550;
     position: absolute;
     z-index: -2;
-    margin-left: 20%;
+    right: 90%;
 
 }
+
+
 
