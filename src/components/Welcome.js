@@ -14,8 +14,11 @@ export const Welcome = () => {
                 >
                     <div className="hero-body">
                         <div className="container has-text-centered">
-                            <p className="title is-uppercase">Albert Paez{' '}</p>
-                            <p className="subtitle is-italic">Aspiring Software Engineer and Web Developer</p>
+                            <p className="title is-2 is-uppercase is-spaced">Albert Paez</p>
+                            <p className="subtitle is-6 is-italic">Aspiring 
+                                <strong className="has-text-primary"> Software Engineer</strong> and  
+                                <strong className="has-text-primary"> Web Developer</strong>
+                            </p>
                         </div>
                     </div>
                 </section>
