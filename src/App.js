@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./styles/App.css"
 import "bulma/css/bulma.css"
@@ -13,16 +13,22 @@ const App = () => {
   return(
     <Router>
       <>
-        <nav className="navbar is-light" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-light" role="navigation" aria-label="main navigation" id="Welcome">
           <div className="navbar-brand">
-              <Link className="navbar-item" to="/">
+              {/* <Link className="navbar-item" to="/">
                 <img src="https://live.staticflickr.com/65535/52306659962_edec6176a3_o.png" alt=""/>
-              </Link>
+              </Link> */}
+              <AnchorLink href="#Welcome" className="navbar-item">
+                <img src="https://live.staticflickr.com/65535/52306659962_edec6176a3_o.png" alt=""/>
+              </AnchorLink>
           </div>
           <div className="navbar-start">    
-            <Link className="navbar-item" to="/About">About</Link>
+            <AnchorLink className="navbar-item" href="#About">About</AnchorLink>
+            <AnchorLink className="navbar-item" href="#Skills">Skills</AnchorLink>  
+            <AnchorLink className="navbar-item" href="#Projects">Projects</AnchorLink>
+            {/* <Link className="navbar-item" to="/About">About</Link>
             <Link className="navbar-item" to="/Skills">Skills</Link>  
-            <Link className="navbar-item" to="/Projects">Projects</Link>
+            <Link className="navbar-item" to="/Projects">Projects</Link> */}
           </div>
           <div className="navbar-end">
             <div className="navbar-item">
@@ -30,17 +36,17 @@ const App = () => {
             </div>
           </div>
         </nav>
-        {/* <Welcome/>
-        <About/>
+        <Welcome/>
+        <About />
         <Skills/>
-        <Projects/> */}
+        <Projects/>
       </>
-      <Routes>
-        <Route path="/" exact element={<Welcome/>}/>
-        <Route path="/About" exact element={<About/>}/>
+      {/* <Routes>
+        <Route path="/" element={<Welcome/>}/>
+        <Route path="/About" element={<About/>}/>
         <Route path="/Skills" element={<Skills/>}/>
         <Route path="/Projects" element={<Projects/>}/>
-      </Routes>
+      </Routes> */}
     </Router>
   );
 }

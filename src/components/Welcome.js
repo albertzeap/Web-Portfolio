@@ -3,7 +3,7 @@ import React from "react";
 export const Welcome = () => {
     return(
         <>  
-                <section 
+                <section
                 className="hero is-fullheight-with-navbar is-dark" 
                 style={{
                         backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1632292220916-e9c34dd75db2)',
