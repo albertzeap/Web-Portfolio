@@ -12,7 +12,7 @@ const ProjectColumn1 = [
     {
         title: "GitHub Timelines",
         description: "Developed with a team, this project allows employers to view a timeline view of a user's repository history.",
-        languages: "Javascript",
+        languages: ["JavaScript", "HTML/CSS", "React", "Next.js", "Vercel", "Github API"],
         image: githubImage,
         repository: "https://github.com/Ismael-Barajas/Timelines",
 
@@ -20,7 +20,7 @@ const ProjectColumn1 = [
     {
         title: "Facebook Clone",
         description: "This project uses React and JS in order to create a clone of the famous social media site, Facebook",
-        languages: "Javascript",
+        languages: ["Javascript", "HTML/CSS", "React Context", "Material UI", "Firebase"],
         image: facebookImage,
         repository: "https://github.com/albertzeap/Facebook-Clone",
 
@@ -30,7 +30,7 @@ const ProjectColumn2 = [
     {
         title: "Superior Threads",
         description: "A basic ecommerce site with React, using React Context for state management, and adding a basic method for handling authentication and cart management.",
-        languages: "Javascript",
+        languages: ["Javascript", "React", "React Context", "JSON server", "HTML/CSS"],
         image: basicEcommerce,
         repository: "https://github.com/albertzeap/basic-ecommerce",
 
@@ -38,7 +38,7 @@ const ProjectColumn2 = [
     {
         title: "Cipher Machine",
         description: "A simple console program that allows users to encrypt or decrypt messages using basic ciphers",
-        languages: "Javascript",
+        languages: ["C++"],
         image: "https://images.unsplash.com/photo-1510511459019-5dda7724fd87",
         repository: "https://github.com/albertzeap/CPSC452-CipherMachine",
 
@@ -48,7 +48,7 @@ const ProjectColumn3 = [
     {
         title: "MERN Todo List",
         description: "This project utilizing the MERN stack to create a basic web application that can perform CRUD operations",
-        languages: "Javascript",
+        languages: ["Javascript", "React", "Node.js", "Bootstrap", "Express.js", "MongoDB"],
         image: MERN,
         repository: "https://github.com/albertzeap/MERN-TodoList",
 
@@ -70,33 +70,39 @@ export const Projects = () => {
                     <div className="column is-one-third">
                         {ProjectColumn1.map(({title, description, languages, image, repository}) => {
                             return (
-                                <ProjectCard 
-                                    name={title} description={description} 
-                                    languages={languages} image={image}
-                                    repository={repository}
-                                />
+                                <div key={title}>
+                                    <ProjectCard 
+                                        name={title} description={description} 
+                                        languages={languages} image={image}
+                                        repository={repository}
+                                    />
+                                </div>
                             );
                         })}
                     </div>
                     <div className="column is-one-third">
                         {ProjectColumn2.map(({title, description, languages, image, repository}) => {
                             return (
-                                <ProjectCard 
-                                    name={title} description={description} 
-                                    languages={languages} image={image}
-                                    repository={repository}
-                                />
+                                <div key={title}>
+                                    <ProjectCard 
+                                        name={title} description={description} 
+                                        languages={languages} image={image}
+                                        repository={repository}
+                                    />
+                                </div>
                             );
                         })} 
                     </div>
                     <div className="column is-one-third">
                         {ProjectColumn3.map(({title, description, languages, image, repository}) => {
                             return (
-                                <ProjectCard 
-                                    name={title} description={description} 
-                                    languages={languages} image={image}
-                                    repository={repository}
-                                />
+                                <div key={title}>
+                                    <ProjectCard 
+                                        name={title} description={description} 
+                                        languages={languages} image={image}
+                                        repository={repository}
+                                    />
+                                </div>
                             );
                         })}
                     </div>

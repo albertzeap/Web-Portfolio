@@ -20,14 +20,26 @@ export const About = () => {
 
                         </div>
                     </div>
-                    <div className="column is-one-third has-text-centered">
+                    <div className="column is-one-third">
                         <h1 className="title is-4 has-text-centered">Biography</h1>
                         <br/>
                         <p className="subtitle is-5">
-                            Knowing how to write a paragraph is incredibly important. It’s a basic aspect of writing, and it is something 
-                            that everyone should know how to do. There is a specific structure that you have to follow when you’re writing 
-                            a paragraph. This structure helps make it easier for the reader to understand what is going on. Through writing 
-                            good paragraphs, a person can communicate a lot bett
+                           I am a dedicated software engineer committed to a lifestyle
+                           of learning.
+                           <br/>
+                           <br/>
+                           The two main reasons why I love programming/building is because I love learning from obstacles that
+                           arise when working on projects and I find purpose in creating applications 
+                           that help solve common problems. 
+                           <br/>
+                           <br/>
+                           As a recent computer science graduate from California
+                           State University-Fullerton, I aim to hone my skills so that I can 
+                           contribute greatly to the tech industry. Furthermore, I am a firm believer that anyone can achieve greatness 
+                           as long they have the humility to learn. 
+                           <br/>
+                           <br/>
+
                         </p>
                     </div>
                     <div className="column is-one-third has-text-centered">

@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router} from 'react-router-dom';
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import "./styles/App.css"
-import "bulma/css/bulma.css"
 import { About } from './components/About';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Welcome } from './components/Welcome';
+
+import "bulma/css/bulma.css";
 
 const App = () => {
 

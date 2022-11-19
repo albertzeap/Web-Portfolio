@@ -10,8 +10,15 @@ export const ProjectCard = ({name, description, image, repository, languages}) =
             </div>
             <div className="card-content has-text-centered">
                 <div className="content">
-                    <p className="title">{name} </p>
+                    <p className="title has-text-weight-bold">{name} </p>
                     <p className="subtitle is-6">{description}</p>
+                    <div className="is-flex is-justify-content-space-evenly is-flex-wrap-wrap ">           
+                    {languages.map((language, index)=>{
+                        return(
+                            <p key={index} className="is-italic has-text-weight-light"> | {language} |</p>
+                            );
+                        })}
+                    </div>
                 </div>
             </div>
             <footer className="card-footer">
