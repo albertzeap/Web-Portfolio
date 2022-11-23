@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ProjectCard = ({name, description, image, repository, languages}) =>{
+export const ProjectCard = ({name, description, image, repository, languages, isLive, liveLink}) =>{
     return(
         <div className="card mb-5">
             <div className="card-image">
@@ -25,7 +25,7 @@ export const ProjectCard = ({name, description, image, repository, languages}) =
                 <p className="card-footer-item">
                     <a className="button" href={repository} target="_blank" rel="noreferrer">Source Code</a>
                 </p>
-                <p className="card-footer-item">Time: </p>
+                <p className="card-footer-item">{isLive ? <a className="button" href={liveLink} target="_blank" rel="noreferrer">Live Site</a> : "" }</p>
             </footer>
         </div>
     );

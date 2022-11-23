@@ -15,6 +15,8 @@ const ProjectColumn1 = [
         languages: ["JavaScript", "HTML/CSS", "React", "Next.js", "Vercel", "Github API"],
         image: githubImage,
         repository: "https://github.com/Ismael-Barajas/Timelines",
+        isLive: true,
+        liveLink: "https://timelines-ismael-barajas.vercel.app/"
 
     },
     {
@@ -23,16 +25,19 @@ const ProjectColumn1 = [
         languages: ["Javascript", "HTML/CSS", "React Context", "Material UI", "Firebase"],
         image: facebookImage,
         repository: "https://github.com/albertzeap/Facebook-Clone",
-
+        isLive: true,
+        liveLink: "https://facebook-clone-5a055.web.app/"
     },
 ];
 const ProjectColumn2 = [
     {
         title: "Superior Threads",
-        description: "A basic ecommerce site with React, using React Context for state management, and adding a basic method for handling authentication and cart management.",
+        description: "A basic ecommerce site with React, using React Context for state management, and featuring authentication and cart management.",
         languages: ["Javascript", "React", "React Context", "JSON server", "HTML/CSS"],
         image: basicEcommerce,
         repository: "https://github.com/albertzeap/basic-ecommerce",
+        isLive: false,
+        liveLink: ""
 
     },
     {
@@ -41,6 +46,8 @@ const ProjectColumn2 = [
         languages: ["C++"],
         image: "https://images.unsplash.com/photo-1510511459019-5dda7724fd87",
         repository: "https://github.com/albertzeap/CPSC452-CipherMachine",
+        isLive: false,
+        liveLink: ""
 
     },
 ];
@@ -51,6 +58,8 @@ const ProjectColumn3 = [
         languages: ["Javascript", "React", "Node.js", "Bootstrap", "Express.js", "MongoDB"],
         image: MERN,
         repository: "https://github.com/albertzeap/MERN-TodoList",
+        isLive: false,
+        liveLink: ""
 
     },
 ];
@@ -58,49 +67,52 @@ const ProjectColumn3 = [
 export const Projects = () => {
     return(
         <div>
-            <section className="hero is-primary mb-5" id="Projects">
+            <section className="hero is-primary" id="Projects">
                 <div className="hero-body">
                     <div className="container has-text-centered">
-                            <h1 className="title is-uppercase">Projects</h1>
+                            <h1 className="title is-2 is-uppercase">Projects</h1>
                     </div>
                 </div>
             </section>
             <section className="section is-medium">
                 <div className="columns">
                     <div className="column is-one-third">
-                        {ProjectColumn1.map(({title, description, languages, image, repository}) => {
+                        {ProjectColumn1.map(({title, description, languages, image, repository, isLive, liveLink}) => {
                             return (
                                 <div key={title}>
                                     <ProjectCard 
                                         name={title} description={description} 
                                         languages={languages} image={image}
                                         repository={repository}
+                                        isLive={isLive} liveLink={liveLink}
                                     />
                                 </div>
                             );
                         })}
                     </div>
                     <div className="column is-one-third">
-                        {ProjectColumn2.map(({title, description, languages, image, repository}) => {
+                        {ProjectColumn2.map(({title, description, languages, image, repository, isLive, liveLink}) => {
                             return (
                                 <div key={title}>
                                     <ProjectCard 
                                         name={title} description={description} 
                                         languages={languages} image={image}
                                         repository={repository}
+                                        isLive={isLive} liveLink={liveLink}
                                     />
                                 </div>
                             );
                         })} 
                     </div>
                     <div className="column is-one-third">
-                        {ProjectColumn3.map(({title, description, languages, image, repository}) => {
+                        {ProjectColumn3.map(({title, description, languages, image, repository, isLive, liveLink}) => {
                             return (
                                 <div key={title}>
                                     <ProjectCard 
                                         name={title} description={description} 
                                         languages={languages} image={image}
                                         repository={repository}
+                                        isLive={isLive} liveLink={liveLink}
                                     />
                                 </div>
                             );
