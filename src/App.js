@@ -33,9 +33,9 @@ const App = () => {
             <div className="navbar-item">
               <a href="https://www.linkedin.com/in/albert-paez-30501a1b5/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             </div>
-            <div className="navbar-item">
+            {/* <div className="navbar-item">
               <button className="button is-primary">Contact me</button>
-            </div>
+            </div> */}
           </div>
         </nav>
         <Welcome/>
@@ -45,10 +45,21 @@ const App = () => {
         <footer className="footer has-background-black">
           <div class="content has-text-centered has-text-light">
             <p>
-              <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-              <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-              is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+              Thank you for visiting my portfolio! <br/>
+              Email: <strong className="has-text-info">albertzeap@gmail.com</strong>
             </p>
+            <div className="is-flex is-justify-content-center">
+              <div className="mr-2">
+                <a href="https://github.com/albertzeap" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+                <p>GitHub</p>
+              </div>
+              <br/>
+              <div className="ml-2">
+                <a href="https://www.linkedin.com/in/albert-paez-30501a1b5/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+                <p>LinkedIn</p>
+              </div>
+            </div>
+            
           </div>
         </footer>
       </>

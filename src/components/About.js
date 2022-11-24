@@ -19,13 +19,13 @@ export const About = () => {
             </section>
             <section className="section is-small" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="1000" >
                 <div className="columns">
-                    <div className="column">
-                        {/* <div className="box has-background-primary"> */}
-                            <figure className="image is-128x128">
+                    <div className="column is-one-third">
+                        <div className="box is-flex is-justify-content-center">
+                            <figure className="image">
                                 <img  className="" src="https://live.staticflickr.com/65535/52311816679_b21d68fb0d_b.jpg" alt="profile"/>
                             </figure>
-
-                        {/* </div> */}
+                        </div>
+                        
                     </div>
                     <div className="column is-one-third">
                         <h1 className="title is-4 has-text-centered is-uppercase">Biography</h1>
